@@ -1,0 +1,48 @@
+body{
+    background: radial-gradient(circle,blue,green,rgb(163, 118, 118));
+}
+
+section{
+    width: 330px;
+    text-align: center;
+    margin: auto;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+}
+h2{
+    padding: 10px;
+}
+p{
+    font-size: 19px;
+}
+
+#input{
+    width: 250px;
+    height: 35px;
+    border-radius: 7px;
+    margin: 10px;
+}
+#generate{
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: rgb(56, 168, 56);
+    font-size: 17px;
+    color: white;
+}
+#generate:hover{
+    background-color: green;
+    transform: scale(0.98);
+}
+#box{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.879);
+    border-width: 2px;
+}
